@@ -1,11 +1,7 @@
-import counterapp from "./counterapp"
+import CounterApp from "./counterapp.jsx";
 
 function App(){
-
-  return(
-  <counterapp />
-)
-
+  return(<CounterApp />);
 }
-export default App
+export default App;
 
